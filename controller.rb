@@ -10,3 +10,7 @@ get '/play/:player1_shot/:player2_shot' do
   # p @result
   erb(:result)
 end
+
+get '/' do
+  erb(:home)
+end

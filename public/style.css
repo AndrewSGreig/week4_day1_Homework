@@ -1,5 +1,8 @@
 body{
   background-color: aquamarine;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: blue;
+}
+nav{
+  border-color: black;
 }
