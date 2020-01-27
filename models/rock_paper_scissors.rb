@@ -10,31 +10,31 @@ class RockPaperScissors
     p "player2_shot = #{player2_shot}"
     if player1_shot == player2_shot
       return player1_shot
-    else
+    end
       return player2_shot
     end
 
-    if @player1_shot == 'rock'
-      if @player2_shot == 'scissors'
-        return 'player1 wins'
-      elsif @player2_shot == 'paper'
-        return 'player 2 wins'
+    if player1_shot == 'rock'
+      if player2_shot == 'scissors'
+        return player1_shot
+      elsif player2_shot == 'paper'
+        return player2shot
       end
     end
 
-    if @player1_shot == 'scissors'
-      if @player2_shot == 'paper'
-        return 'player1 wins'
-      elsif @player2_shot == 'rock'
-        return 'player 2 wins'
+    if player1_shot == 'scissors'
+      if player2_shot == 'paper'
+        return player1_shot
+      elsif player2_shot == 'rock'
+        return player2_shot
       end
     end
 
-    if @player1_shot == 'paper'
-      if @player2_shot == 'rock'
-        return'player1 wins'
-      elsif @player2_shot == 'scissors'
-        return'player 2 wins'
+    if player1_shot == 'paper'
+      if player2_shot == 'rock'
+        return player1_shot
+      elsif player2_shot == 'scissors'
+        return player2_shot
       end
     end
   end
